@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>facebook.com, twitter.com, google.com</string>
+		<key>Key</key>
+		<string>whitelist</string>
+		<key>Password</key>
+		<false/>
+		<key>Secure</key>
+		<false/>
+		<key>Title</key>
+		<string>Whitelist domains (comma-separated)</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+</array>
+</plist>
