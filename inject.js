@@ -1,5 +1,9 @@
-(function(){
+(function boot(){
   "use strict";
+
+  if (typeof(window) === "undefined" || typeof(safari) === "undefined") {
+    return setTimeout(boot, 500);
+  }
 
   var each = Array.prototype.forEach;
   var whitelist = [];
